@@ -8,7 +8,6 @@ from gtts import gTTS
 
 # Conta os números por unidade
 MY_TEXT = 'Passe um texto como argumento'
-# LANGUAGE = 'pt-br'
 
 def gerar_arquivo_audio(my_text=MY_TEXT, language='pt-br'):
     '''Gera arquivo de áudio em português'''
